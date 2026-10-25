@@ -1,0 +1,35 @@
+{
+  "name": "granite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5143 --strictPort",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@iconify/react": "^6.0.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-fs": "^2.7.1",
+    "@tauri-apps/plugin-opener": "^2.7.2",
+    "lucide-react": "^1.61.0",
+    "motion": "^14.6.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}

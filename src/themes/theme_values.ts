@@ -1,0 +1,10 @@
+//dropdown
+export const dropdown_container_bg_color = "#1A1A1A"
+export const dropdown_container_border_color = "#FFFFFF1A"
+export const dropdown_container_border_thickness = "1"
+export const dropdown_button_initial_bg_color = "oklch(0.314 0.001 17.233 / 0.11)"
+export const dropdown_button_hovered_bg_color = "oklch(0.309 0 0)"
+export const dropdown_button_initial_text_color = "oklch(0.6649 0 0)"
+export const dropdown_button_hovered_text_color = "oklch(0.9103 0 0)"
+export const dropdown_button_border_thickness = "0"
+export const dropdown_button_border_color = "#FFFFFF"
